@@ -7,20 +7,20 @@ export function Hero() {
         <header className={styles.hero}>
             <div className={styles.hero__menu}>
                 <ul className={styles.hero__menu__leftMenu}>
-                    <li className={styles.hero__menu__leftMenu__linkItem}>
-                        <Link href="/" className={styles.hero__menu__leftMenu__linkItem__link}><h1 className={styles.hero__menu__leftMenu__linkItem__link__logo}>Claude Kiseke.</h1></Link>
-                        <p className={styles.hero__menu__leftMenu__linkItem__link__role}>Front-end developer</p>
+                    <li>
+                        <Link href="/" className={styles.hero__menu__leftMenu__link}><h1 className={styles.hero__menu__leftMenu__link__logo}>Claude Kiseke.</h1></Link>
+                        <p className={styles.hero__menu__leftMenu__link__role}>Front-end developer</p>
                     </li>
                 </ul>
                 <ul className={styles.hero__menu__rightMenu}>
-                    <li className={styles.hero__menu__rightMenu__linkItem}>
-                        <Link href="#featured-work" className={styles.hero__menu__rightMenu__linkItem__link}>Featured Work</Link>
+                    <li>
+                        <Link href="#featured-work" className={styles.hero__menu__rightMenu__link}>Featured Work</Link>
                     </li>
-                    <li className={styles.hero__menu__rightMenu__linkItem}>
-                        <Link href="#contact" className={styles.hero__menu__rightMenu__linkItem__link}>Contact</Link>
+                    <li className={styles.hero__menu__rightMenu}>
+                        <Link href="#contact" className={styles.hero__menu__rightMenu__link}>Contact</Link>
                     </li>
-                    <li className={styles.hero__menu__rightMenu__linkItem}>
-                        <Link href="http://linkedin.com/in/claudekiseke/" target="_blank" className={styles.hero__menu__rightMenu__linkItem__link}>LinkedIn</Link>
+                    <li className={styles.hero__menu__rightMenu}>
+                        <Link href="http://linkedin.com/in/claudekiseke/" target="_blank" className={styles.hero__menu__rightMenu__link}>LinkedIn</Link>
                     </li>
                 </ul>
             </div>
