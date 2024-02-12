@@ -1,4 +1,4 @@
-.featured{
+.featured {
     background-color: var(--light-blue);
     padding: 60px;
 }
@@ -35,6 +35,9 @@
 }
 
 .featured__featuredWork__caseStudy__featuredImage {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
