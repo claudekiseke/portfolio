@@ -22,9 +22,9 @@ export default async function Home() {
     <>
       <Hero />
       <main>
-        <Brands />
+        {/* <Brands />
         <FeaturedWork />
-        <Form />
+        <Form /> */}
       </main>
       <Footer copyrightText='© 2024 Claude Kiseke. All right reserved.' />
     </>
