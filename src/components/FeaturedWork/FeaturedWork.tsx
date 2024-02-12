@@ -11,7 +11,9 @@ export function FeaturedWork() {
             <h3 className={styles.featured__featuredWork__subHeading}>Functional. SEO Optimized. CMS-Based</h3>
 
             <div className={styles.featured__featuredWork__caseStudy}>
-                <div className={styles.featured__featuredWork__caseStudy__featuredImage}>
+                <div className={`${styles.featured__featuredWork__caseStudy__featuredImage} ${styles.featured__featuredWork__caseStudy__featuredImage__proposal}`}>
+                    <span>Current design</span>
+                    <span>Proposed design</span>
                 <Image 
                         src="https://images.ctfassets.net/odkae62k89vn/4iyjeIBILMGSH97UCRRWwg/49990620bac56d7a347e5ff09bf14b48/Jeffrey_Campbell_Current_Designs.png"
                         alt="Frshly Squeezd"
