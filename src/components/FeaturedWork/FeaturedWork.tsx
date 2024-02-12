@@ -23,7 +23,7 @@ export function FeaturedWork() {
                     <h4 className={styles.featured__featuredWork__caseStudy__brand}>Jeffrey Campbell Shoes</h4>
                     <div className={styles.featured__featuredWork__caseStudy__caseStudyDescription}>
                         <p>Combined Group Contracting (CGC) is one of the leading construction and contracting companies in the Middle East. CGC wanted to revamp its existing website since it looked outdated with poor design. Ali worked with Poixel to develop the new website on Webflow.</p>
-                        <p>The final web design was achieved by Poixel's team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
+                        <p>The final web design was achieved by Poixel&apos;s team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
@@ -52,7 +52,7 @@ export function FeaturedWork() {
                     <h4 className={styles.featured__featuredWork__caseStudy__brand}>Frshly Squeezd</h4>
                     <div className={styles.featured__featuredWork__caseStudy__caseStudyDescription}>
                         <p>Combined Group Contracting (CGC) is one of the leading construction and contracting companies in the Middle East. CGC wanted to revamp its existing website since it looked outdated with poor design. Ali worked with Poixel to develop the new website on Webflow.</p>
-                        <p>The final web design was achieved by Poixel's team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
+                        <p>The final web design was achieved by Poixel&apos;s team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
@@ -81,7 +81,7 @@ export function FeaturedWork() {
                     <h4 className={styles.featured__featuredWork__caseStudy__brand}>GRL Magazine</h4>
                     <div className={styles.featured__featuredWork__caseStudy__caseStudyDescription}>
                         <p>Combined Group Contracting (CGC) is one of the leading construction and contracting companies in the Middle East. CGC wanted to revamp its existing website since it looked outdated with poor design. Ali worked with Poixel to develop the new website on Webflow.</p>
-                        <p>The final web design was achieved by Poixel's team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
+                        <p>The final web design was achieved by Poixel&apos;s team. Ali worked on the pixel-perfect development of the final site with a few enhancements.The website was developed with the goal of keeping it simple to use, different from other competitor websites, and making it feel more like a digital company profile. Ali Saeed also helped with the copywriting for the website, to make sure it communicated the right message throughout the site.</p>
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>

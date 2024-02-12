@@ -25,8 +25,8 @@ export function Hero() {
                 </ul>
             </div>
             <div className={styles.hero__aboutText}>
-                <h3 className={styles.hero__aboutText__bio}>I'm a London-based Front-End Developer with a love for design and making brands shine online.</h3>
-                <p className={styles.hero__aboutText__about}>My work has ranged from sleek corporate websites to dynamic and interactive e-commerce platforms, that are not just functional but also beautifully aligned with each brand's identity, and has been featured in Forbes.</p>
+                <h3 className={styles.hero__aboutText__bio}>I&apos;m a London-based Front-End Developer with a love for design and making brands shine online.</h3>
+                <p className={styles.hero__aboutText__about}>My work has ranged from sleek corporate websites to dynamic and interactive e-commerce platforms, that are not just functional but also beautifully aligned with each brand&apos;s identity, and has been featured in Forbes.</p>
             </div>
         </header>
     );
