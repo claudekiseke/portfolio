@@ -1,5 +1,7 @@
 .brands {
     padding: 60px;
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
 .brands__heading {
