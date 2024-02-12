@@ -1,0 +1,94 @@
+.hero {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 394px;
+    padding: 30px;
+}
+
+.hero__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__menu__leftMenu,
+.hero__menu__rightMenu,
+.hero__menu__leftMenu__linkItem__link__logo {
+    margin: 0;
+}
+
+.hero__menu__leftMenu,
+.hero__menu__rightMenu {
+    list-style: none;
+    padding: 0;
+}
+
+.hero__menu__leftMenu__linkItem__link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.hero__menu__leftMenu__linkItem__link__logo {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.hero__menu__leftMenu__linkItem__link__role {
+    color: var(--white);
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.hero__menu__rightMenu {
+    display: flex;
+    gap: 15px;
+}
+
+.hero__menu__rightMenu__linkItem__link {
+    color: var(--white);
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.hero__aboutText {
+    margin: 0 auto 20px;
+    max-width: 1000px;
+    padding: 0 55px;
+}
+
+.hero__aboutText__bio,
+.hero__aboutText__about {
+    color: var(--white);
+    text-align: center;
+}
+
+.hero__aboutText__bio {
+    font-size: 2.4em;
+    font-weight: 400;
+}
+
+.hero__aboutText__about {
+    color: var(--dark-white);
+    font-size: 1.4em;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        min-height: 620px;
+    }
+
+    .hero__aboutText {
+        margin-bottom: 70px;
+    }
+
+    .hero__aboutText__bio {
+        font-size: 4.8em;
+    }
+
+    .hero__aboutText__about {
+        font-size: 2.4em;
+    }
+}

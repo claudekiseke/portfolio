@@ -1,4 +1,12 @@
 :root {
     --blue: #0057FF;
+    --white: #FAFAFA;
+    --dark-white: #BBD1FB;
   }
   
+html,
+body {
+  font-size: 10px;
+  line-height: 1;
+  margin: 0;
+}
