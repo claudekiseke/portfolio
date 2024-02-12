@@ -104,6 +104,10 @@
         flex-direction: row-reverse;
     }
 
+    .featured__featuredWork__caseStudy__featuredImage {
+        width: 100%;
+    }
+
     .featured__featuredWork__caseStudy__links {
         flex-direction: row;
         gap: 30px;
