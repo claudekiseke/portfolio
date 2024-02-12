@@ -1,3 +1,44 @@
-.form {
-    
+.contactForm {
+    padding: 60px 20px;
+}
+
+.contactForm__heading {
+    color: var(--blue);
+    font-size: 3.2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contactForm__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.contactForm__form__input,
+.contactForm__form__submit {
+    border: 1px solid var(--blue);
+    font-family: inherit;
+    padding: 20px;
+}
+
+.contactForm__form__input {
+    font-size: 1.4em;
+}
+
+.contactForm__form__submit {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .contactForm__heading {
+        font-size: 2.4em;
+    }
+    .contactForm__form__submit {
+        width: fit-content;
+    }
 }
