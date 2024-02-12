@@ -1,0 +1,22 @@
+.brands {
+    padding: 80px 60px;
+}
+
+.brands__heading {
+    color: var(--blue);
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.brands__brandsList {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.brands__brandsList__listItem img {
+    width: 100%;
+    height: 40px;
+}
