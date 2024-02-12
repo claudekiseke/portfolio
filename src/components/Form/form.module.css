@@ -20,6 +20,7 @@
 .contactForm__form__input,
 .contactForm__form__submit {
     border: 1px solid var(--blue);
+    border-radius: 0;
     font-family: inherit;
     padding: 20px;
 }
