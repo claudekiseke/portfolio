@@ -38,6 +38,11 @@
     text-align: center;
 }
 
+.featured__featuredWork__caseStudy__featuredImage img {
+    width: 100%;
+    height: auto;
+}
+
 .featured__featuredWork__caseStudy__brand {
     color: var(--blue);
     font-size: 2.4em;
@@ -102,10 +107,6 @@
 
     .featured__featuredWork__caseStudy:nth-child(even) {
         flex-direction: row-reverse;
-    }
-
-    .featured__featuredWork__caseStudy__featuredImage {
-        width: 100%;
     }
 
     .featured__featuredWork__caseStudy__links {
