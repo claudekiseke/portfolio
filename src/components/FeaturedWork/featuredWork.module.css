@@ -81,6 +81,20 @@
     margin-bottom: 30px;
 }
 
+.featured__featuredWork__caseStudy__stack {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.featured__featuredWork__caseStudy__stack img {
+    width: 40px;
+    height: auto;
+}
+
 .featured__featuredWork__caseStudy__links {
     display: flex;
     flex-direction: column;
@@ -121,6 +135,10 @@
         font-size: 1.6em;
         line-height: 1em;
         margin-bottom: 60px;
+    }
+
+    .featured__featuredWork__caseStudy__stack {
+        justify-content: flex-start;
     }
 }
 

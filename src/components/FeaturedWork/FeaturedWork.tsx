@@ -43,6 +43,56 @@ export function FeaturedWork() {
                         <Link href="#featured-work" legacyBehavior={false} className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`}>View GitHub Code</Link>
                     </li>
                     </ul>
+                    <ul className={styles.featured__featuredWork__caseStudy__stack}>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/8UKhCRibwxMIw7aNJE94G/993cf6836df8b038f5f1e03bbe236d57/ReactJS.svg"
+                                width={50}
+                                height={50}
+                                alt="ReactJS"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/3XiaHFr7y7JhZOeXM6nC69/5c6eb24d4f8e763ada746b7d83c733d9/TypeScript.svg"
+                                width={50}
+                                height={50}
+                                alt="TypeScript"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/wBNOBu8ypyiXGfC4v0puE/b0846256a2bfee40f174a9ee0a472d7a/Sass.svg"
+                                width={50}
+                                height={50}
+                                alt="Sass"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/3cySCNxaG5x8LdS0NJGu0C/fba875d5fba96de2195175a8d6da6fd6/Figma.svg"
+                                width={50}
+                                height={50}
+                                alt="Figma"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/6O81pUTRjt2QELjwRhsh7w/be185c37870351b2ffb3b5659b0c46db/Shopify.svg"
+                                width={50}
+                                height={50}
+                                alt="Shopify"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/2nq1XRCurbg6Taf0kt15C/a4aac2a30c7324bf5b86ccd6c27ffadf/GitHub.svg"
+                                width={50}
+                                height={50}
+                                alt="GitHub"
+                            />
+                        </li>
+                    </ul> 
                 </div>
             </div>
 
@@ -72,6 +122,56 @@ export function FeaturedWork() {
                         <Link href="https://github.com/claudekiseke/frshlysqueezd/tree/staging/frshlyweb" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
                     </li>
                     </ul>
+                    <ul className={styles.featured__featuredWork__caseStudy__stack}>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/MJCxDXQsRCwR9BaBml1PA/36df3ef8558a907cea8135f89d1eb3b5/NextJS.svg"
+                                width={50}
+                                height={50}
+                                alt="NextJS"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/1NOsj9D4nqH3lWwZ6u0fpY/e89c72a676069046e2f7fd6de389a9fa/CSS3.svg"
+                                width={50}
+                                height={50}
+                                alt="CSS"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/3cySCNxaG5x8LdS0NJGu0C/fba875d5fba96de2195175a8d6da6fd6/Figma.svg"
+                                width={50}
+                                height={50}
+                                alt="Figma"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/5i0vbOcGFUwCfIR6Wy8IB9/4d5bc658d4561c3f96f48a2429781702/Contentful.svg"
+                                width={50}
+                                height={50}
+                                alt="Contentful"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/2nq1XRCurbg6Taf0kt15C/a4aac2a30c7324bf5b86ccd6c27ffadf/GitHub.svg"
+                                width={50}
+                                height={50}
+                                alt="GitHub"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/26xxJm4b8g8lmvdUJfgRTt/e765c3ffebd4f73ae2866e7b1ab0eeee/firebase-svgrepo-com.svg"
+                                width={50}
+                                height={50}
+                                alt="Firebase"
+                            />
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -100,6 +200,64 @@ export function FeaturedWork() {
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
                         <Link href="#featured-work" className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`} aria-disabled>View GitHub Code</Link>
                     </li>
+                    </ul>
+                    <ul className={styles.featured__featuredWork__caseStudy__stack}>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/MJCxDXQsRCwR9BaBml1PA/36df3ef8558a907cea8135f89d1eb3b5/NextJS.svg"
+                                width={50}
+                                height={50}
+                                alt="NextJS"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/3XiaHFr7y7JhZOeXM6nC69/5c6eb24d4f8e763ada746b7d83c733d9/TypeScript.svg"
+                                width={50}
+                                height={50}
+                                alt="TypeScript"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/wBNOBu8ypyiXGfC4v0puE/b0846256a2bfee40f174a9ee0a472d7a/Sass.svg"
+                                width={50}
+                                height={50}
+                                alt="Sass"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/3cySCNxaG5x8LdS0NJGu0C/fba875d5fba96de2195175a8d6da6fd6/Figma.svg"
+                                width={50}
+                                height={50}
+                                alt="Figma"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/5i0vbOcGFUwCfIR6Wy8IB9/4d5bc658d4561c3f96f48a2429781702/Contentful.svg"
+                                width={50}
+                                height={50}
+                                alt="Contentful"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/2nq1XRCurbg6Taf0kt15C/a4aac2a30c7324bf5b86ccd6c27ffadf/GitHub.svg"
+                                width={50}
+                                height={50}
+                                alt="GitHub"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                src="https://images.ctfassets.net/odkae62k89vn/26xxJm4b8g8lmvdUJfgRTt/e765c3ffebd4f73ae2866e7b1ab0eeee/firebase-svgrepo-com.svg"
+                                width={50}
+                                height={50}
+                                alt="Firebase"
+                            />
+                        </li>
                     </ul>
                 </div>
             </div>
