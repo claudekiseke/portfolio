@@ -64,6 +64,17 @@
     margin: 0 0 10px;
 }
 
+.featured__featuredWork__caseStudy__brand span{
+    background-color: #E2ECFF;
+    border: 1px solid var(--blue);
+    border-radius: 6px;
+    color: var(--blue);
+    font-size: 0.5em;
+    padding: 3px 10px;
+    position: relative;
+    top: -5px;
+}
+
 .featured__featuredWork__caseStudy__caseStudyDescription {
     font-size: 1.4em;
     line-height: 1.3em;
