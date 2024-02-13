@@ -66,7 +66,7 @@ export function FeaturedWork() {
                         <Link href="https://www.figma.com/file/qDchcyRXKtUGO6uz6XfnTD/Frshly-Squeezd-Resources?type=design&node-id=0%3A1&mode=dev" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#https://frshlysqueezd-git-staging-claudekiseke.vercel.app" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
+                        <Link href="https://frshlysqueezd-git-staging-claudekiseke.vercel.app" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
                         <Link href="https://github.com/claudekiseke/frshlysqueezd/tree/staging/frshlyweb" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
