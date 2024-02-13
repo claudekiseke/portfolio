@@ -30,8 +30,8 @@
 .featured__featuredWork__caseStudy {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 30px;
+    margin-bottom: 60px;
 }
 
 .featured__featuredWork__caseStudy:last-child {
@@ -128,7 +128,6 @@
     .featured__featuredWork__caseStudy {
         flex-direction: row;
         gap: 100px;
-        margin-bottom: 60px;
     }
 
     .featured__featuredWork__caseStudy:nth-child(even) {
