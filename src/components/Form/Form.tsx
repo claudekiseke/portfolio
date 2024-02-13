@@ -3,7 +3,7 @@ import styles from './form.module.css'
 export function Form() {
 
     return (
-        <div className={styles.contactForm}>
+        <div className={styles.contactForm} id="contact">
             <h2 className={styles.contactForm__heading}>Get in touch</h2>
             <form className={styles.contactForm__form}>
                 <input type="text" name="first-name" placeholder="First Name" className={styles.contactForm__form__input} required />

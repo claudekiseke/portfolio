@@ -12,8 +12,17 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
 footer {
-  padding: 20px;
+  border-bottom: 10px solid var(--blue);
+  padding: 20px 20px 5px;
 }
 
 footer p {

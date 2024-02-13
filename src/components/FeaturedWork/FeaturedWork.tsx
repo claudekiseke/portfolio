@@ -5,7 +5,7 @@ import Link from 'next/link';
 export function FeaturedWork() {
 
     return (
-        <div className={styles.featured}>
+        <div className={styles.featured} id="featured-work">
         <div className={styles.featured__featuredWork}>
             <h2 className={styles.featured__featuredWork__heading}>Featured Personal Work</h2>
             <h3 className={styles.featured__featuredWork__subHeading}>Functional. SEO Optimized. CMS-Based</h3>
@@ -16,13 +16,13 @@ export function FeaturedWork() {
                     <span>Proposed design</span>
                 <Image 
                         src="https://images.ctfassets.net/odkae62k89vn/4iyjeIBILMGSH97UCRRWwg/49990620bac56d7a347e5ff09bf14b48/Jeffrey_Campbell_Current_Designs.png"
-                        alt="Frshly Squeezd"
+                        alt="Jeffrey Campbell Shoes"
                         width={297}
                         height={408}
                     />
                     <Image 
                         src="https://images.ctfassets.net/odkae62k89vn/G8qt5dvdfzOM3N7wOTXZG/dffaed055899bbb3bb2402a3622abb21/Jeffrey_Campbell_Proposed_Designs.png"
-                        alt="Frshly Squeezd"
+                        alt="Jeffrey Campbell Shoes"
                         width={422}
                         height={358}
                     />
@@ -34,13 +34,13 @@ export function FeaturedWork() {
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
+                        <Link href="https://www.figma.com/file/XV5NvJZN5RnKrVQKus8tgb/Jeffrey-Campbell-Ecom?type=design&node-id=0%3A1&mode=dev&t=nnGOtyYFLZ9bAJn1-1" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
+                        <Link href="#featured-work" className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`}>View Snippet Demo</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
+                        <Link href="#featured-work" legacyBehavior={false} className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`}>View GitHub Code</Link>
                     </li>
                     </ul>
                 </div>
@@ -63,13 +63,13 @@ export function FeaturedWork() {
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
+                        <Link href="https://www.figma.com/file/qDchcyRXKtUGO6uz6XfnTD/Frshly-Squeezd-Resources?type=design&node-id=0%3A1&mode=dev" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
+                        <Link href="#https://frshlysqueezd-git-staging-claudekiseke.vercel.app" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
+                        <Link href="https://github.com/claudekiseke/frshlysqueezd/tree/staging/frshlyweb" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
                     </li>
                     </ul>
                 </div>
@@ -79,7 +79,7 @@ export function FeaturedWork() {
                 <div className={styles.featured__featuredWork__caseStudy__featuredImage}>
                     <Image 
                         src="https://images.ctfassets.net/odkae62k89vn/68KXhnfTr8T0mMWj0nudwb/746dd2034d7f1b963ae076369308e759/GRL.png"
-                        alt="Frshly Squeezd"
+                        alt="GRL Magazine"
                         width={422}
                         height={358}
                     />
@@ -92,13 +92,13 @@ export function FeaturedWork() {
                     </div>
                     <ul className={styles.featured__featuredWork__caseStudy__links}>
                         <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
+                        <Link href="https://www.figma.com/file/f5tOAWAvkqO70ovm1AYvP1/GRL-Magazine?type=design&node-id=4%3A970&mode=dev" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Design File</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View Snippet Demo</Link>
+                        <Link href="#featured-work" className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`} aria-disabled>View Snippet Demo</Link>
                     </li>
                     <li className={styles.featured__featuredWork__caseStudy__links__linkItem}>
-                        <Link href="#" target="_blank" className={styles.featured__featuredWork__caseStudy__links__linkItem__link}>View GitHub Code</Link>
+                        <Link href="#featured-work" className={`${styles.featured__featuredWork__caseStudy__links__linkItem__link} disabled`} aria-disabled>View GitHub Code</Link>
                     </li>
                     </ul>
                 </div>
