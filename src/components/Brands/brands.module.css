@@ -12,13 +12,23 @@
 }
 
 .brands__brandsList {
-    display: flex;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .brands__brandsList__listItem img {
     width: 100%;
     height: auto;
+    max-height: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+    .brands__brandsList {
+        display: flex;
+    }
 }
